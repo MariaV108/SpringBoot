@@ -27,6 +27,7 @@ public class UserController {
     @PostMapping //http://localhost:9999/users
     public void saveUser(@RequestBody UserDto userDto) {
         userService.saveUser(userDto);
+        System.out.println();
     }
 
     @DeleteMapping("/{id}")

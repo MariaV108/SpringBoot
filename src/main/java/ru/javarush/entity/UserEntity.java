@@ -25,7 +25,7 @@ public class UserEntity {
     @Column(name ="name")
     private String name;
 
-    private String productName;
+//    private String productName;
 
     @CreationTimestamp()
     @Column(name = "created_date")
