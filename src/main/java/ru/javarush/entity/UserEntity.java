@@ -57,6 +57,7 @@ public class UserEntity {
 
     public UserEntity setUpdatedAt(LocalDateTime updatedAt) {
         this.updatedAt = updatedAt;
+        System.out.println();
         return this;
     }
 }
