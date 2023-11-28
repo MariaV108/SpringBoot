@@ -25,8 +25,6 @@ public class UserEntity {
     @Column(name ="name")
     private String name;
 
-//    private String productName;
-
     @CreationTimestamp()
     @Column(name = "created_date")
     private LocalDateTime createdAt;
@@ -57,7 +55,6 @@ public class UserEntity {
 
     public UserEntity setUpdatedAt(LocalDateTime updatedAt) {
         this.updatedAt = updatedAt;
-        System.out.println();
         return this;
     }
 }
